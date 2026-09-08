@@ -161,6 +161,12 @@ const it: PortfolioContent = {
   ],
   certsMore: [
     {
+      name: 'Lifelong Professional Skills',
+      issuer: 'IBM',
+      date: 'Set 2026',
+      url: 'https://www.credly.com/badges/c85cc2bb-d34b-4108-9924-1a2e180967a8/public_url',
+    },
+    {
       name: 'Docker Essentials: A Developer Introduction',
       issuer: 'IBM',
       date: 'Giu 2025',
@@ -456,6 +462,12 @@ const en: PortfolioContent = {
     },
   ],
   certsMore: [
+    {
+      name: 'Lifelong Professional Skills',
+      issuer: 'IBM',
+      date: 'Sep 2026',
+      url: 'https://www.credly.com/badges/c85cc2bb-d34b-4108-9924-1a2e180967a8/public_url',
+    },
     {
       name: 'Docker Essentials: A Developer Introduction',
       issuer: 'IBM',
