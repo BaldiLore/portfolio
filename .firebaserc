@@ -1,6 +1,7 @@
 {
   "projects": {
-    "portfolio": "portfolio-9f660"
+    "portfolio": "portfolio-9f660",
+    "produzione": "portfolio-9f660"
   },
   "targets": {},
   "etags": {}
