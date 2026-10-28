@@ -190,6 +190,27 @@ const it: PortfolioContent = {
   filterLabels: { all: 'Tutti', pro: 'Professionali', perso: 'Personali' },
   projects: [
     {
+      kind: 'perso',
+      title: 'Sheetsmith',
+      client: 'Open source',
+      period: 'Ott 2026 — Presente',
+      dateRange: 'Ott 2026 — Presente',
+      desc: 'Libreria Java open source per generare file Excel (.xlsx) da POJO e record tramite annotazioni, con auto-configurazione Spring Boot.',
+      tags: ['Java 17+', 'Spring Boot 4', 'Apache POI', 'Maven Central', 'GitHub Actions', 'Open Source'],
+      long: [
+        'Libreria Java open source che genera file Excel (.xlsx) a partire da POJO e record: si descrive la tabella una sola volta con le annotazioni (titolo, intestazioni, ordine delle colonne, formati, stili e preset) e si ottiene il file come byte[] o scritto su un OutputStream.',
+        'È costruita su Apache POI ed è organizzata in moduli: un core indipendente dal framework, utilizzabile anche senza Spring, e uno starter con auto-configurazione per Spring Boot 4.',
+      ],
+      highlights: [
+        'Ruolo: autore e maintainer',
+        'Pubblicata su Maven Central con licenza Apache 2.0',
+        'Architettura multi-modulo: core, autoconfigure e starter Spring Boot',
+        'Build e test in CI su JDK 17, 21 e 25',
+      ],
+      linkUrl: 'https://sheetsmith.baldilorenzo.cloud',
+      linkLabel: 'Documentazione',
+    },
+    {
       kind: 'pro',
       title: 'Roma Capitale — Dipartimento Risorse Economiche',
       client: 'Cliente: Roma Capitale',
@@ -491,6 +512,27 @@ const en: PortfolioContent = {
 
   filterLabels: { all: 'All', pro: 'Professional', perso: 'Personal' },
   projects: [
+    {
+      kind: 'perso',
+      title: 'Sheetsmith',
+      client: 'Open source',
+      period: 'Oct 2026 — Present',
+      dateRange: 'Oct 2026 — Present',
+      desc: 'Open source Java library for annotation-driven Excel (.xlsx) generation from POJOs and records, with Spring Boot auto-configuration.',
+      tags: ['Java 17+', 'Spring Boot 4', 'Apache POI', 'Maven Central', 'GitHub Actions', 'Open Source'],
+      long: [
+        'Open source Java library that generates Excel (.xlsx) files from POJOs and records: you describe the table once with annotations (title, headers, column order, formats, styles and presets) and get the file as a byte[] or written to an OutputStream.',
+        'Built on Apache POI and split into modules: a framework-agnostic core, usable without Spring, and a starter with auto-configuration for Spring Boot 4.',
+      ],
+      highlights: [
+        'Role: author and maintainer',
+        'Published on Maven Central under the Apache 2.0 license',
+        'Multi-module architecture: core, autoconfigure and Spring Boot starter',
+        'Built and tested in CI on JDK 17, 21 and 25',
+      ],
+      linkUrl: 'https://sheetsmith.baldilorenzo.cloud',
+      linkLabel: 'Documentation',
+    },
     {
       kind: 'pro',
       title: 'Roma Capitale — Economic Resources Department',
