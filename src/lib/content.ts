@@ -207,7 +207,7 @@ const it: PortfolioContent = {
         'Architettura multi-modulo: core, autoconfigure e starter Spring Boot',
         'Build e test in CI su JDK 17, 21 e 25',
       ],
-      linkUrl: 'https://sheetsmith.baldilorenzo.cloud',
+      linkUrl: 'https://sheetsmith.baldilorenzo.cloud/it/',
       linkLabel: 'Documentazione',
     },
     {
